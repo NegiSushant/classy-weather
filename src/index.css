@@ -1,5 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
 
+/* Mobile Styles */
+@media (max-width: 600px) {
+
+  .app {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  input {
+    width: 100%;
+    padding: 1.2rem 2.4rem;
+  }
+
+  .day {
+    width: auto;
+    padding: 1.2rem;
+  }
+
+  .day span {
+    font-size: 3.6rem; 
+  }
+
+}
+
+/* Tablet Styles */
+@media (min-width: 600px) and (max-width: 1024px) {
+
+  .app {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  input {
+    width: 100%;
+  }
+
+}
+
+/* Resize images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Box sizing */  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Responsive fonts */
+html {
+  font-size: 87.5%;
+}
+
 * {
   margin: 0;
   padding: 0;
